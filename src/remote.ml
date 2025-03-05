@@ -483,8 +483,7 @@ let rshargs =
     ("The string value of this preference will be passed as additional "
      ^ "arguments (besides the host name and the name of the Unison "
      ^ "executable on the remote system) to the \\verb|rsh| "
-     ^ "command used to invoke the remote server. The backslash is an "
-     ^ "escape character."
+     ^ "command used to invoke the remote server. "
      )
 
 let sshargs =
@@ -493,8 +492,7 @@ let sshargs =
     ("The string value of this preference will be passed as additional "
      ^ "arguments (besides the host name and the name of the Unison "
      ^ "executable on the remote system) to the \\verb|ssh| "
-     ^ "command used to invoke the remote server. The backslash is an "
-     ^ "escape character."
+     ^ "command used to invoke the remote server. "
      )
 
 let serverCmd =
